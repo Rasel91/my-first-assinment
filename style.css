@@ -111,10 +111,64 @@ padding: 50px;
     margin-left: 690px;
 
 }
-/* Donate css end */
 
+.donate_plan {
+    text-transform: capitalize;
+    text-align: center;
+}
+.donate_plan h1{
+    font-weight: 700;
+    padding-bottom: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Our Donate plan css end */
+.donate_forFamily{
+    display: flex;
+    margin: 40px;
+    
+}
+.donate_icon1{
+    margin-left: 20px;
+    /* overflow: hidden; */
+    border-radius: 30px;
+    height: 300px;
+    width: 500px;
+    /* border: 2px solid rgb(95, 12, 12); */
+    background-color: rgb(213, 218, 218);
+  
+}
+.donate_icon2{
+    margin-left: 20px;
+    /* overflow: hidden; */
+    border-radius: 30px;
+    height: 300px;
+    width: 500px;
+    /* border: 2px solid rgb(95, 12, 12); */
+    background-color: rgb(222, 229, 234);
+  
+}
+.donate_icon3{
+    margin-left: 20px;
+    /* overflow: hidden; */
+    border-radius: 30px;
+    height: 300px;
+    width: 500px;
+    /* border: 2px solid rgb(95, 12, 12); */
+    background-color: rgb(184, 224, 224);
+  
+}
+#dd-text h3,p{
+    
+    color: rgb(10, 11, 12);
+    margin: 20px;
+}
 
 /* Image Gallery css Start */
+.All_gallery{
+    padding-bottom: 480px;
+}
 .Gallery_text{
     text-align: center;
     padding: 30px;
@@ -144,3 +198,58 @@ padding: 50px;
 
 /* Image Gallery css end */
 
+
+
+
+
+
+
+
+
+/*=========== footer css start============ */
+footer{
+
+    height: 500px;
+    width: 100%;
+   background-color: rgb(8, 2, 2);
+}
+.footer h1{
+   font-weight: 700;
+    color: rgb(227, 216, 216);
+
+}
+/*=========== footer css end============ */
+.footer_item{
+    margin-top: 50px;
+    height: 150px;
+    background-color:black;
+   
+}
+.footer_item h5{
+   padding-top: 50px;
+    margin-top: 0px;
+    color: aliceblue;
+    text-align: center;
+   
+}
+.form_bg{
+    background-color: #fc894d;
+    height: 200px;
+    width: 100%;
+    
+}
+.form_bg form{
+    padding-top: 50px;
+
+}
+.form_bg input{
+   height: 45px;
+}
+
+.sub{
+
+    background-color: red;
+    padding: 15px 25px;
+    background-color: aquamarine;
+
+}
