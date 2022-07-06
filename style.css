@@ -9,7 +9,7 @@ body{
 /* ====  hero are css star========= */
 
 .hero_text p{
-    font-size: 1px;
+    font-size: 14px;
     color: aliceblue;
 }
 
@@ -100,6 +100,9 @@ body{
     line-height: 30px;
     color: rgb(53, 50, 50);
 }
+.donate_text h1{
+   font-size: 50px;
+}
 .donat_n {
     margin-top: 150px;
     align-self: center;
@@ -111,59 +114,39 @@ body{
     margin-left: 690px;
 
 }
-
-.donate_plan {
-    text-transform: capitalize;
-    text-align: center;
-}
-.donate_plan h1{
-    font-weight: 700;
-    padding-bottom: 30px;
-    font-size: 50px;
-    text-align: center;
-}
-
-
-.donate_forFamily{
-    display: flex;
-    margin: 40px;
-    
-}
-.donate_icon1{
-    margin-left: 20px;
-
-    border-radius: 30px;
-    height: 300px;
-    width: 500px;
-    background-color: rgb(213, 218, 218);
-  
-}
-.donate_icon2{
-    margin-left: 20px;
-    /* overflow: hidden; */
-    border-radius: 30px;
-    height: 300px;
-    width: 500px;
-    /* border: 2px solid rgb(95, 12, 12); */
-    background-color: rgb(222, 229, 234);
-  
-}
-.donate_icon3{
-    margin-left: 20px;
-    /* overflow: hidden; */
-    border-radius: 30px;
-    height: 300px;
-    width: 500px;
-    /* border: 2px solid rgb(95, 12, 12); */
-    background-color: rgb(184, 224, 224);
-  
-}
-#dd-text h3,p{
-    
-    color: rgb(10, 11, 12);
-    margin: 20px;
-}
 /* ================Our Donate plan css end=================== */
+/* ==============family start========= */
+.icon_setting {
+
+    display: flex;
+    
+   }
+   
+   .icon-1{
+       border-radius: 30px;
+       box-shadow: 15px 20px 30px rgb(28, 28, 28);
+       margin-left: 20px;
+       padding: 20px;
+        box-sizing: border-box;
+       height: 400px;
+       width: 500px;
+       border: 5px solid seashell;
+   }
+   .icon-1 img{
+     height: 120px;
+     width: 120px;
+     padding-bottom: 20px;
+   }
+   .icon-1 h1, p {
+
+    margin-top: 20px;
+    
+   }
+
+/* ==============family end========= */
+
+
+
 /* -==================Image Gallery css Start=================== */
 .All_gallery{
     padding-bottom: 480px;
@@ -208,6 +191,7 @@ body{
     
 }
 .form_bg form{
+    margin-left: 200px;
     padding-top: 50px;
 
 }
