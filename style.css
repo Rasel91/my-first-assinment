@@ -6,10 +6,11 @@ body{
     font-family: 'Lato', sans-serif;
     text-decoration: none;
 }
-
+/* ====  hero are css star========= */
 
 .hero_text p{
     font-size: 1px;
+    color: aliceblue;
 }
 
 .hero_text h1{
@@ -46,9 +47,9 @@ body{
     padding: 10px 20px ;
     border-radius: 30px;
 }
+/* ====  hero are css end ========= */
 
-
-/* Donate css start */
+/*================ Donate css start=================== */
 .donate_text{
     padding-bottom: 50px;
     text-align: center;
@@ -84,13 +85,12 @@ body{
 }
 
 .donate_othertk {
- display: flex;
-padding: 50px; 
- 
+    display: flex;
+    padding: 50px; 
+    
 }
 .donate_div{
     margin-left: 650px;
-    /* padding: 80px 50px; */
     color: rgb(169, 166, 166) ;
     padding-bottom: 10px;
     border-bottom: 2px solid rgb(171, 166, 166);
@@ -123,7 +123,7 @@ padding: 50px;
     text-align: center;
 }
 
-/* Our Donate plan css end */
+
 .donate_forFamily{
     display: flex;
     margin: 40px;
@@ -131,11 +131,10 @@ padding: 50px;
 }
 .donate_icon1{
     margin-left: 20px;
-    /* overflow: hidden; */
+
     border-radius: 30px;
     height: 300px;
     width: 500px;
-    /* border: 2px solid rgb(95, 12, 12); */
     background-color: rgb(213, 218, 218);
   
 }
@@ -164,8 +163,8 @@ padding: 50px;
     color: rgb(10, 11, 12);
     margin: 20px;
 }
-
-/* Image Gallery css Start */
+/* ================Our Donate plan css end=================== */
+/* -==================Image Gallery css Start=================== */
 .All_gallery{
     padding-bottom: 480px;
 }
@@ -173,7 +172,8 @@ padding: 50px;
     text-align: center;
     padding: 30px;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 70px;
+    text-transform: uppercase;
 
 }
 .image_gallery {
@@ -194,14 +194,37 @@ padding: 50px;
     height: auto;
 }
   
-
-
-/* Image Gallery css end */
-
+/* ==================Image Gallery css end ======================*/
 
 
 
 
+/* ================= form css start =================*/
+.form_bg{
+    background-color: #2d1204;
+    height: 200px;
+    width: 50%;
+    margin-left: 25%;
+    
+}
+.form_bg form{
+    padding-top: 50px;
+
+}
+.form_bg input{
+   height: 45px;
+   background-color: rgb(71, 74, 74);
+}
+
+.sub{
+
+    padding: 15px 25px;
+    background-color: rgb(189, 122, 154);
+
+}
+
+
+/*===================form css end====================== */
 
 
 
@@ -218,7 +241,7 @@ footer{
     color: rgb(227, 216, 216);
 
 }
-/*=========== footer css end============ */
+
 .footer_item{
     margin-top: 50px;
     height: 150px;
@@ -226,30 +249,9 @@ footer{
    
 }
 .footer_item h5{
-   padding-top: 50px;
-    margin-top: 0px;
+   padding-top: 80px;
     color: aliceblue;
     text-align: center;
    
 }
-.form_bg{
-    background-color: #fc894d;
-    height: 200px;
-    width: 100%;
-    
-}
-.form_bg form{
-    padding-top: 50px;
-
-}
-.form_bg input{
-   height: 45px;
-}
-
-.sub{
-
-    background-color: red;
-    padding: 15px 25px;
-    background-color: aquamarine;
-
-}
+/*=========== footer css end============ */
