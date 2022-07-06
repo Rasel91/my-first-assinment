@@ -6,46 +6,55 @@ body{
     font-family: 'Lato', sans-serif;
     text-decoration: none;
 }
-section{
-    height: 500px;
+
+
+.hero_text p{
+    font-size: 1px;
+}
+
+.hero_text h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+
+.hero_area{
+
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/donation1.jpg");
 
 }
-.header{
-     text-align: center;
-   background-image: url(images/donation1.jpg);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-color: rgba(4, 3, 3, 0.4);
-   z-index:-1;
-   
+.hero_text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
 }
-.heade_text h1{
-     font-size: 50px;
-     font-weight: 800;
-     padding-top: 20px;
-    color: rgb(236, 228, 228);
-}
-.heade_text  P{
-    font-weight: lighter;
-    padding: 20px 150px ;
-   color: rgb(236, 228, 228);
-}
+
 .header_button{
-    padding-top: 20px;
+    margin-top: 50px;
     text-decoration: none;
     color: aliceblue;
     background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
     padding: 10px 20px ;
     border-radius: 30px;
 }
+
+
 /* Donate css start */
-.donate{
-    padding-bottom: 150px;
+.donate_text{
+    padding-bottom: 50px;
     text-align: center;
 }
 .donate h1{
-    text-transform: uppercase;
+  text-transform: capitalize;
     font-weight: 800;
     padding: 50px 50px;
 }
@@ -69,19 +78,69 @@ section{
 }
 
 .donate_active{
-    /* width: 10em;
-    height: 5ex; */
+    
     background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
     border: none;
 }
-.donate_othertk h5{
-   padding-top: 150px;
-   color: rgb(169, 166, 166) ;
-   padding-bottom: 10px;
+
+.donate_othertk {
+ display: flex;
+padding: 50px; 
+ 
+}
+.donate_div{
+    margin-left: 650px;
+    /* padding: 80px 50px; */
+    color: rgb(169, 166, 166) ;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(171, 166, 166);
+}
+.donate_text{
+    padding-top: 120px;
+    line-height: 30px;
+    color: rgb(53, 50, 50);
+}
+.donat_n {
+    margin-top: 150px;
+    align-self: center;
+    background-color: #f34079;
+    padding: 10px 20px;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 15px;
+    margin-left: 690px;
 
 }
-.Top_border {
-    margin-bottom: 120px;
-    border-top: 2px solid gray;
-}
 /* Donate css end */
+
+
+/* Image Gallery css Start */
+.Gallery_text{
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.image_gallery {
+  
+    margin-top: 20px;
+    border: 3px solid rgb(214, 3, 83);
+    float: left;
+    border-radius: 5px;
+    box-shadow: 1px 20px 30px rgb(151, 154, 155);
+    width:350px;
+    margin-left: 12px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.image_gallery img{
+    
+    width: 100%;
+    height: auto;
+}
+  
+
+
+/* Image Gallery css end */
+
